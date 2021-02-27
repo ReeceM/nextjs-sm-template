@@ -17,7 +17,7 @@ const Page = (props) => {
           ))
       }
       <Head>
-        <title>{data?.page_title || 'Blurb SliceMachine'}</title>
+        <title>{data?.page_title}</title>
         <meta
           name="title"
           content={data?.meta_title}

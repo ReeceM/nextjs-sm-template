@@ -29,7 +29,7 @@ export const headings = {
 
 export const fonts = {
   body:
-    'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
+    '"Inter" system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
   heading: '"Inter", serif',
   monospace: 'Menlo, monospace',
 }

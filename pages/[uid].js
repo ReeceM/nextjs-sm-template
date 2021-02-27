@@ -18,7 +18,7 @@ const Page = (props) => {
             ))
       }
       <Head>
-        <title>{data?.page_title || 'Blurb SliceMachine'}</title>
+        <title>{data?.page_title || 'SliceMachine'}</title>
         <meta
           name="title"
           content={data?.meta_title}
@@ -27,7 +27,6 @@ const Page = (props) => {
           name="description"
           content={data?.meta_description}
         />
-        {/* https://banners.beyondco.de/_Blurb_%20SliceMachine%20Library.jpeg?theme=light&packageManager=npm+install&packageName=%40reecem%2Fblurb&pattern=bamboo&style=style_2&description=%23SliceContest+Entry+SliceMachine&md=1&showWatermark=0&fontSize=175px&images=scissors&widths=auto */}
 
       </Head>
       <SliceZone {...props} resolver={resolver} />
